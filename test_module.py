@@ -13,3 +13,4 @@ class UnitTests(unittest.TestCase):
             'sum': [[9, 12, 15], [3, 12, 21], 36]
         }
         self.assertAlmostEqual(actual['mean'][0][0], expected['mean'][0][0], places=1)
+        
